@@ -32,5 +32,4 @@ The codes of GFormer are implemented and tested under the following development 
 ## How to Run the Code
 
 <ul>
-<li><code>python gmain.py --data dataset --reg 1e-4 --ssl_reg 1 --gcn 3 --ctra 1e-3 --b2 1 --pnn 1<code></li></ul>
-</body></html>
+<li><code>python gmain.py --data dataset --reg 1e-4 --ssl_reg 1 --gcn 3 --ctra 1e-3 --b2 1 --pnn 1<code></li></ul></body></html>
