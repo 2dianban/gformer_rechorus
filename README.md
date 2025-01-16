@@ -5,7 +5,7 @@ This is the PyTorch implementation for GFormer model proposed in this paper:
 ## Introduction
 This paper presents a novel approach to representation learning in recommender systems by integrating generative self-supervised learning with graph transformer architecture. We highlight the importance of high-quality data augmentation with relevant self-supervised pretext tasks for improving performance. Towards this end, we propose a new approach that automates the self-supervision augmentation process through a rationale-aware generative SSL that distills informative user-item interaction patterns. The proposed recommender with Graph Transformer (GFormer) that offers parameterized collaborative rationale discovery for selective augmentation while preserving global-aware user-item relationships. In GFormer, we allow the rationale-aware SSL to inspire graph collaborative filtering with task-adaptive invariant rationalization in graph transformer. The experimental results reveal that our GFormer has the capability to consistently improve the performance over baselines on different datasets. Several in-depth experiments further investigate the invariant rationale-aware augmentation from various aspects.
 
-<img src='fig/framework.jpg'>
+<img src='framework.jpg'>
 
 ## Environment
 The codes of GFormer are implemented and tested under the following development environment:
@@ -22,12 +22,6 @@ The codes of GFormer are implemented and tested under the following development 
 </ul>
   
 ## Datasets
-We utilize three datasets for evaluating GFormer: <i>Yelp, Ifashion, </i>and <i>Lastfm</i>. Note that compared to the data used in our previous works, in this work we utilize a more sparse version of the three datasets, to increase the difficulty of recommendation task. Our evaluation follows the common implicit feedback paradigm. The datasets are divided into training set, validation set and test set by 70:5:25.
-| Dataset | \# Users | \# Items | \# Interactions | Interaction Density |
-|:-------:|:--------:|:--------:|:---------------:|:-------:|
-|Yelp   |$42,712$|$26,822$|$182,357$|$1.6\times 10^{-4}$|
-|Ifashion|$31,668$|$38,048$|$618,629$|$5.1\times 10^{-4}$|
-|LastFm |$1,889$|$15,376$|$51,987$|$1.8\times 10^{-3}$|
 
 
 ## How to Run the Code
@@ -36,16 +30,3 @@ We utilize three datasets for evaluating GFormer: <i>Yelp, Ifashion, </i>and <i>
 <li><code>python gmain.py</li></ul>
 </body></html>
 
-## Citing our paper
-Please kindly cite our paper if you find this paper and the codes helpful.
-```
-@inproceedings{Li_2023, series={SIGIR ’23},
-   title={Graph Transformer for Recommendation},
-   url={http://dx.doi.org/10.1145/3539618.3591723},
-   DOI={10.1145/3539618.3591723},
-   booktitle={Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},
-   publisher={ACM},
-   author={Li, Chaoliu and Xia, Lianghao and Ren, Xubin and Ye, Yaowen and Xu, Yong and Huang, Chao},
-   year={2023},
-   month=jul, collection={SIGIR ’23} }
-```
