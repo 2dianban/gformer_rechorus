@@ -33,7 +33,7 @@ We utilize three datasets for evaluating GFormer: <i>Yelp, Ifashion, </i>and <i>
 ## How to Run the Code
 
 <ul>
-<li>Yelp<pre><code>python gmain.py 
+<li>python gmain.py 
 </li>
 </ul>
 </body></html>
