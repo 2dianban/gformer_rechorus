@@ -29,4 +29,3 @@ The codes of GFormer are implemented and tested under the following development 
 <ul>
 <li><code>python gmain.py</li></ul>
 </body></html>
-
