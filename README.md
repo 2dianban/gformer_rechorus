@@ -27,5 +27,5 @@ The codes of GFormer are implemented and tested under the following development 
 ## How to Run the Code
 
 <ul>
-<li><code>python gmain.py</li></ul>
+<li><code>python gmain.py<code></li></ul>
 </body></html>
