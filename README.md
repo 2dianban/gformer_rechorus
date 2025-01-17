@@ -1,4 +1,4 @@
-# Graph Transformer for Recommendation
+# Graph Transformer for Recommendation base on rechorus and its data
 This is the PyTorch implementation for GFormer model proposed in this paper:
 
  
