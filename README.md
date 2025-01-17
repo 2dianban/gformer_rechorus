@@ -27,7 +27,9 @@ The codes of GFormer are implemented and tested under the following development 
 |Grocery_and_Gourmet_Food|
 |MovieLens_1M |
 
-
+## 指标
+| HR | 
+| NDCG |
 
 ## How to Run the Code
 
